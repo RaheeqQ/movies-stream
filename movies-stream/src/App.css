@@ -1,38 +1,167 @@
-.App {
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+body{
+  background-color: orange;
+  display: flex;
+  justify-content: center;
+  background-image: linear-gradient(to right, #FFA41C, #1D1D1D);
+}
+.App{
+  display: flex;
+  height: 90vh;
+  font-family: "Quicksand";
+  width: 160vh;
+  margin: 40px;
+  border-radius: 15px;
+  background: #1D1D1D;
+}
+.sidebar{
+  background-color: #181715;
+  width: 13%;
+  border-radius: 15px 0px 0px 15px;
+  margin-right: 3px;
+}
+.icon{
+  padding: 5px 50px 10px 60px ;
+}
+.iconBtn{
+  border: none;
+  background-color: rgba(127, 255, 212, 0);
+  width: 100%;
+  height: 100%;
+}
+.icon:hover{
+  background-color: #FFA41C;
+}
+.profile-pic{
+  padding: 40px 40px 10px 56px;
+}
+.profilePicture{
+  border-radius: 100px;
+  width: 50px;
+  height: 50px;
+}
+.paraSpan{
+  font-weight: 600;
+  font-size: larger;
+  color: white;
+  font-family: "Quicksand";
+  padding-right: 150px;
+}
+.App-header{
+  background-color: #181715;
+  width: 70%;
+  margin-right: 3px;
+  font-family: "Quicksand";
+}
+.header{
+  padding: 30px 200px 10px 50px;
+  width: 100%;
+  font-family: "Quicksand";
+}
+.search-bar{
+  height: 40px;
+  width: 35%;
+  border-radius: 10px;
+  font-family: "Quicksand";
+  font-size: 15px;
+  margin-right: 20px;
+  border: none;
+}
+.filter-btn{
+  background-color: #FFA41C;
+  color: white;
+  position: relative;
+  top:15px;
+  height: 42px;
+  border-radius: 8px;
+  font-family: "Quicksand";
+  border: none;
+}
+.filter-img{
+  height: 40px;
+  width: 35px;
+}
+.right-sidebar{
+  background-color: #181715;
+  width: 20%;
+  border-radius: 0px 15px 15px 0px;
+  color: white;
+  font-family: "Quicksand";
+  padding-left: 20px;
+  padding-top: 40px;
+}
+.side-header{
+  font-family: "Quicksand";
+  color: white;
+  font-size: large;
+}
+.movie-section {
+  display: flex;
+  justify-content: space-around;
+}
+
+.movie-card {
+  background-color: #333;
+  padding: 15px;
+  border-radius: 10px;
+  width: 30%;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.movie-info {
+  margin-top: 10px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.icons{
+  height: 40px;
+  width: 45px;
+  border-radius: 10px;
+  margin: 2px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.channels{
+  position: relative;
+  top:-15px;
+  left: 10px;
+}
+.genres{
+  font-size: 15px;
+  padding-bottom: 5px;
+}
+.Thriller{
+  border: none;
+  border-radius: 10px;
+  background-color: #FFA41C;
+  font-family: "Quicksand";
   color: white;
+  font-size: 15px;
+  width: 50px;
+  padding: 5px;
+  height: 20px;
+}
+.movie-card {
+  position: relative;
+  border-radius: 15px;
+  padding: 2px;
+  width: 200px;
+  height: 200px;
+}
+.movie-image {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  border-radius: 15px;
+  display: flex;
+  align-items: flex-end;
+}
+.movie-title {
+  font-size: 20px;
+  font-weight: 600;
+  color: white;
+  margin-bottom: 3px;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.movie-year {
+  font-size: 16px;
+  font-weight: 400;
+  color: #FFA41C;
 }
