@@ -1,0 +1,35 @@
+.header{
+    padding: 30px 400px 20px 20px;
+    width: 100%;
+    font-family: "Quicksand";
+}
+.paraSpan{
+    font-weight: 600;
+    font-size: larger;
+    color: white;
+    font-family: "Quicksand";
+    padding-right: 210px;
+}
+.search-bar{
+    height: 40px;
+    width: 35%;
+    border-radius: 10px;
+    font-family: "Quicksand";
+    font-size: 15px;
+    margin-right: 20px;
+    border: none;
+  }
+.filter-btn{
+    background-color: #FFA41C;
+    color: white;
+    position: relative;
+    top:15px;
+    height: 42px;
+    border-radius: 8px;
+    font-family: "Quicksand";
+    border: none;
+}
+.filter-img{
+    height: 40px;
+    width: 35px;
+}

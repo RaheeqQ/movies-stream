@@ -1,5 +1,6 @@
 import React from 'react';
 import filter from './imgs/Settings-adjust.png'
+import './css-files/Header.css'
 function Header() {
   return (
     <div className="header">

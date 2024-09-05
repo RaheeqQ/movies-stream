@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+body{
+  background-color: orange;
+  display: flex;
+  justify-content: center;
+  background-image: linear-gradient(to right, #FFA41C, #1D1D1D);
+}
+.App{
+  display: flex;
+  height: 90vh;
+  font-family: "Quicksand";
+  width: 160vh;
+  margin: 40px;
+  border-radius: 15px;
+  background: #1D1D1D;
+}
+.App-header{
+  background-color: #181715;
+  width: 70%;
+  margin-right: 5px;
+  font-family: "Quicksand";
+}

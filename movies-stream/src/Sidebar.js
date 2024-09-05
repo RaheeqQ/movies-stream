@@ -13,7 +13,7 @@ import profile3 from './imgs/profile3.jpeg';
 import toggleIcon from './imgs/toggle.png'; 
 import logoutIcon from './imgs/Logout.png';
 import  mode from './imgs/mode.png'
-import './App.css';
+import './css-files/Sidebar.css';
 function Sidebar() {
   return (
     <div className="sidebar">

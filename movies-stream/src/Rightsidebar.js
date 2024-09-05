@@ -4,7 +4,7 @@ import HBO from './imgs/hbo.png';
 import hulu from './imgs/hulu.png';
 import netflix from './imgs/N.jpeg';
 import prime from './imgs/prime.jpeg';
-import './App.css';
+import './css-files/Rightsidebar.css';
 const Rightsidebar = () => {
     return ( 
     <div className="right-sidebar">

@@ -6,6 +6,7 @@ import sharkImage from './imgs/Shark.png';
 import riverdaleImage from './imgs/riverdale.jpeg';
 import tallGirlImage from './imgs/Tall_Girl.jpeg';
 import playButton from './imgs/play-button.png'
+import './css-files/Content.css'
 function Content() {
   return (
     <div className="main-content">

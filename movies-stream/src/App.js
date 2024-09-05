@@ -1,4 +1,4 @@
-import './App.css';
+import './css-files/App.css';
 import Header from './Header';
 import Sidebar from './Sidebar';
 import Rightsidebar from './Rightsidebar';
