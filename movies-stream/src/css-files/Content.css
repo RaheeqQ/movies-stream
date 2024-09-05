@@ -1,7 +1,7 @@
 .movie-section {
     display: flex;
-    justify-content: space-around;
-    margin: 0px 10px 30px 10px;
+    justify-content: space-between;
+    margin: 0 10px 30px;
   }
   
   .movie-card {
@@ -31,11 +31,13 @@
     margin-left: 37px;
     position: relative;
     top: 10px;
+    cursor: pointer;
   }
   .play-button2{
     margin-left: 10px;
     position: relative;
     top: 10px;
+    cursor: pointer;
   }
   .movie-name{
     color: white;
@@ -86,4 +88,5 @@
     font-family: "Quicksand";
     margin-left: 5px;
     width: 90px;
+    cursor: pointer;
   }

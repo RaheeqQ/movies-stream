@@ -28,6 +28,7 @@
     border-radius: 8px;
     font-family: "Quicksand";
     border: none;
+    cursor: pointer;
 }
 .filter-img{
     height: 40px;
