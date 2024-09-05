@@ -1,0 +1,40 @@
+.right-sidebar{
+    background-color: #181715;
+    width: 20%;
+    border-radius: 0px 15px 15px 0px;
+    color: white;
+    font-family: "Quicksand";
+    padding-left: 20px;
+    padding-top: 40px;
+  }
+  .side-header{
+    font-family: "Quicksand";
+    color: white;
+    font-size: large;
+  }
+  .channels{
+    position: relative;
+    top:-15px;
+    left: 10px;
+  }
+  .genres{
+    font-size: 15px;
+    padding-bottom: 5px;
+  }
+  .Thriller{
+    border: none;
+    border-radius: 10px;
+    background-color: #FFA41C;
+    font-family: "Quicksand";
+    color: white;
+    font-size: 15px;
+    width: 50px;
+    padding: 5px;
+    height: 20px;
+  }
+  .icons{
+    height: 40px;
+    width: 45px;
+    border-radius: 10px;
+    margin: 2px;
+  }
