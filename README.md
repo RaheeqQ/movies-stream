@@ -23,7 +23,7 @@ movie-stream<br>
 │   ├── MovieCard.js<br>
 │   ├── Rightsidebar.js<br>
 │   ├── Sidebar.js<br>
-│   └── imgs
+│   └── imgs<br>
 ├── README.md              
 ├── package.json            
 └── package-lock.json
