@@ -2,7 +2,7 @@
 ![image](https://github.com/user-attachments/assets/df104cb2-cdff-43b7-94bf-7af1bd0db4a7)
 ## Project Setup
 - Create a new React project using create-react-app:<br>
-     npx create-react-app movie-stream
+     npx create-react-app movie-stream <br>
      cd movie-stream
 
 ## Project Structure
