@@ -18,7 +18,7 @@ body{
   background-color: #181715;
   width: 13%;
   border-radius: 15px 0px 0px 15px;
-  margin-right: 3px;
+  margin-right: 5px;
 }
 .icon{
   padding: 5px 50px 10px 60px ;
@@ -28,9 +28,6 @@ body{
   background-color: rgba(127, 255, 212, 0);
   width: 100%;
   height: 100%;
-}
-.icon:hover{
-  background-color: #FFA41C;
 }
 .profile-pic{
   padding: 40px 40px 10px 56px;
@@ -45,16 +42,16 @@ body{
   font-size: larger;
   color: white;
   font-family: "Quicksand";
-  padding-right: 150px;
+  padding-right: 210px;
 }
 .App-header{
   background-color: #181715;
   width: 70%;
-  margin-right: 3px;
+  margin-right: 5px;
   font-family: "Quicksand";
 }
 .header{
-  padding: 30px 200px 10px 50px;
+  padding: 30px 400px 20px 20px;
   width: 100%;
   font-family: "Quicksand";
 }
@@ -98,6 +95,7 @@ body{
 .movie-section {
   display: flex;
   justify-content: space-around;
+  margin: 0px 10px 30px 10px;
 }
 
 .movie-card {
@@ -116,6 +114,33 @@ body{
   width: 45px;
   border-radius: 10px;
   margin: 2px;
+}
+.Shrek-riverdale{
+  position: relative;
+  top: 200px;
+  left: -150px;
+  background-color: #181715;
+  border: solid 3px #1D1D1D;
+  height: 20px;
+  width: 400px;
+  padding: 5px;
+  border-radius: 10px;
+  margin:15px 0px 0px 30px;
+}
+.play-button{
+  margin-left: 37px;
+  position: relative;
+  top: 10px;
+}
+.play-button2{
+  margin-left: 10px;
+  position: relative;
+  top: 10px;
+}
+.movie-name{
+  color: white;
+  position: relative;
+  top: -30px;
 }
 .channels{
   position: relative;
@@ -158,10 +183,93 @@ body{
   font-weight: 600;
   color: white;
   margin-bottom: 3px;
+  padding-left: 10px;
 }
 
 .movie-year {
   font-size: 16px;
   font-weight: 400;
+  color: white;
+}
+.three-movies{
+  font-weight: lighter;
+  font-size: 15px;
+  padding-left: 10px;
+}
+.see-more{
+  background: #181715;
+  border: 2px solid black;
+  border-radius: 5px;
+  padding: 5px;
   color: #FFA41C;
+  font-family: "Quicksand";
+  margin-left: 5px;
+  width: 90px;
+}
+
+.user-menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  border: solid 2px #1D1D1D;
+  background-color: #181715;
+  border-radius: 15px;
+  padding: 20px;
+  width: 8px; 
+  height: 120px;
+  margin: 10px 40px 10px 56px;
+}
+
+.user-profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.profile-img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 2px solid #1D1D1D;
+}
+
+.add-user-btn {
+  background-color: #FFA41C;
+  border: none;
+  border-radius: 60px;
+  padding: 0px 2px 0px 2px ;
+  cursor: pointer;
+}
+.menu-icons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.icon-wrapper {
+  position: relative;
+}
+
+.toggle {
+  width: 50px;
+  height: 25px;
+  position: absolute;
+  top: 15px;
+  left: -40px;
+}
+
+.menu-icon {
+  width: 40px;
+  height: 35px;
+  position: relative;
+  left: 20px;
+  top: -18px;
+}
+.mode{
+  position: relative;
+  top: 15px;
+  left: -45px;
 }
