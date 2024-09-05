@@ -6,23 +6,5 @@
      cd movie-stream
 
 ## Project Structure
-movie-stream
-├── public/
-├── src/
-│   ├── css-files
-│   │   ├── App.css
-│   │   ├── Content.css 
-│   │   ├── Header.css 
-│   │   ├── Rightsidebar.css
-│   │   ├── Sidebar.css
-│   ├── App.js 
-│   ├── Contant.js 
-│   ├── Header.js 
-│   ├── MovieCard.js
-│   ├── Rightsidebar.js 
-│   ├── Sidebar.js 
-│   ├── imgs        
-├── README.md                  
-├── package.json                
-└── package-lock.json
+![Screenshot 2024-09-05 173311](https://github.com/user-attachments/assets/f6cf810e-0079-4dbc-94fa-642d36a6dd1f)
 
