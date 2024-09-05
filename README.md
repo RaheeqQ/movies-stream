@@ -24,7 +24,7 @@ movie-stream<br>
 │   ├── Rightsidebar.js<br>
 │   ├── Sidebar.js<br>
 │   └── imgs<br>
-│        └── (Movie Images and Icons)<br>
+│            └── (Movie Images and Icons)<br>
 ├── README.md              
 ├── package.json            
 └── package-lock.json
